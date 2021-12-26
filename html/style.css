@@ -1,0 +1,119 @@
+*{
+     margin:0;
+     padding:0;
+
+
+}
+body{
+    background-color:#02073a;
+    font-family: helvetica;
+    font-weight: bold;
+    color: white;
+}
+h2{
+    font-size: 15pt;
+    margin-bottom: 10px;
+}
+
+
+.first-word{
+    font-size: 40pt;
+}
+
+.event-hour{
+    font-size: 10pt;
+    font-style: italic;
+    text-align: right;
+}
+
+.event-date{
+    margin-top: 40px;
+}
+
+
+.event-day{
+    font-size: 40pt;
+}
+
+.tile-long{
+    width: 360px;
+    height:140px;
+    margin: 5px;
+    padding:15px;
+    float:left;
+}
+
+.tile{
+    width:160px;
+    height:140px;
+    margin:5px;
+    padding: 15px;
+    float:left;
+ }
+
+#top_header{
+   margin-top:5px;
+}
+   
+.tile-list a{
+    color: white;
+}
+
+ul.tile-list li{
+    font-size: 10pt;
+    list-style-type: square;
+    margin-left:5px;
+    text-decoration:underline;
+}
+
+.green {
+    background-color :#13B2A3
+}
+
+.red {
+    background-color :#F16F51
+}
+
+.yellow{
+    background-color :#FDB45C
+}
+
+.lightgrey {
+    background-color :#F6F6F6;
+}
+.city-image{
+    background-image: url("image.jpg");
+}
+
+#main-container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+#header-middle{
+ text-align:center
+}
+#users-table{
+  
+     font-weight:normal;
+     font-size: 10pt;
+     width: 100%;    
+}
+#users-table th{
+    text-align: left;
+    border-bottom: 1px solid #F6F6F6;
+    padding :2px; 
+}
+#users-table td{
+ padding:2px;
+}
+
+#last_header{
+    color: black;
+
+}
+
+.container{
+    color: black;
+    font-weight: bold;    
+    font-size: 10pt;
+}
